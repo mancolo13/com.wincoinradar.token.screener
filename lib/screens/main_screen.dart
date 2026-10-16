@@ -18,8 +18,8 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = const [
     Tab1Screen(),
     Tab2Screen(),
-    Tab3Screen(),
     Tab4Screen(),
+    Tab3Screen(),
   ];
 
   @override
@@ -52,7 +52,6 @@ class _MainScreenState extends State<MainScreen> {
           selectedIcon: const Icon(Icons.account_balance_wallet, color: AppTheme.primaryColor),
           label: 'Portfolio',
         ),
-
         ],
       ),
     );
